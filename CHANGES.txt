@@ -1,3 +1,9 @@
+Teads custom changes
+====================
+
+Backport from 2.1.14:
+* Don't remove FailureDetector history on removeEndpoint (CASSANDRA-10371)
+
 2.0.17
  * Fix rare race where older gossip states can be shadowed (CASSANDRA-10366)
  * Fix consolidating racks violating the RF contract (CASSANDRA-10238)

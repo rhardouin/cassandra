@@ -34,7 +34,7 @@ public class SEPExecutor extends AbstractTracingAwareExecutorService
     private final SharedExecutorPool pool;
 
     public final int maxWorkers;
-    private final int maxTasksQueued;
+    public final int maxTasksQueued;
 
     // stores both a set of work permits and task permits:
     //  bottom 32 bits are number of queued tasks, in the range [0..maxTasksQueued]   (initially 0)

@@ -1,4 +1,5 @@
 4.0
+ * Expose NTR tasks queue length via JMX (CASSANDRA-12758)
  * Improve sstablemetadata output (CASSANDRA-11483)
  * Support for migrating legacy users to roles has been dropped (CASSANDRA-13371)
  * Introduce error metrics for repair (CASSANDRA-13387)
